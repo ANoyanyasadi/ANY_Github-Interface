@@ -1,0 +1,58 @@
+.Header {
+    background-color: $header-bg;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-family: "Maven Pro", sans-serif;
+
+    &-logo {
+
+        i {
+            height: 32px;
+            width: 32px;
+            color: #fff;
+        }
+    }
+
+    &-search {
+        position: relative;
+        input {
+            background-color: hsla(0, 0%, 100%, .125);
+            width: 300px;
+            height: 20px;
+            padding: 7px;
+            font-size: 12px;
+            color: #fff;
+            border: none;
+            margin-right: 16px;
+            border-radius: 3px;
+        }
+
+        i {
+            position: absolute;
+            right: 25px;
+            top: 8px;
+        }
+    }
+
+    &-Links {
+
+        a {
+            color: #fff;
+            margin-right: 16px;
+            font-family: $my-font;
+            font-size: 14px;
+            text-decoration: solid;
+        }
+    }
+    
+    &-rightLinks {
+        margin-left: auto;
+    }
+
+    i {
+        color: #ccc;
+        margin-left: 16px;
+    }
+}
+
